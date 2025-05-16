@@ -1,45 +1,61 @@
-🚀 Steps to Set Up and Run Java Selenium Project in Eclipse
+Steps to Set Up and Run Java Selenium Project in Eclipse
 
-🖥️ Download Eclipse IDE
+1. Download Eclipse IDE from:
 https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2025-03/R/eclipse-inst-jre-win64.exe
 
-📦 Download Selenium JAR files
+2. Download Selenium JAR files from:
 https://www.selenium.dev/downloads/
-Stable: 4.32.0 (May 02, 2025)
+(Stable version: 4.32.0, May 02, 2025)
 
-✅ Complete Eclipse installation and setup
+3. Complete Eclipse installation and setup.
 
-📂 Create a new Java project in Eclipse:
+4. Create a new Java project in Eclipse:
 
-File → New → Java Project
+Go to File → New → Java Project
 
 Enter project name (e.g., automation)
 
 Click Finish
 
-🗑️ Delete module-info.java file:
+5. Delete the module-info.java file:
 
-Expand src folder
+Expand the src folder
 
 Right-click module-info.java → Delete
 
-📁 Create a new package:
+6. Create a new package:
 
-Right-click src → New → Package
+Right-click on src → New → Package
 
 Enter package name (e.g., webaut)
 
 Click Finish
 
-🆕 Create a new Java class:
+7. Create a new Java class:
 
-Right-click package (e.g., webaut) → New → Class
+Right-click the package (e.g., webaut) → New → Class
 
 Enter class name (e.g., webautomation)
 
-Check public static void main(String[] args)
+Select public static void main(String[] args) option
 
 Click Finish
 
-✍️ Workspace is ready to write your Selenium automation code!
+8. Extract the downloaded Selenium JAR files.
+
+Add Selenium JAR files to your project build path:
+
+Right-click on the Java project → Properties
+
+Go to Java Build Path → Libraries tab
+
+Select Classpath → Click Add External JARs
+
+Browse and select all the extracted Selenium JAR files → Click Open
+
+Click Apply and Close
+
+9. Verify that the Selenium JAR files appear under the project as Referenced Libraries in Package Explorer.
+
+10. Your workspace is now ready to write and run Selenium automation code.
 

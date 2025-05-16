@@ -1,11 +1,11 @@
 🚀 Steps to Set Up and Run Java Selenium Project in Eclipse
 
 🖥️ Download Eclipse IDE
-Download here
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2025-03/R/eclipse-inst-jre-win64.exe
 
 📦 Download Selenium JAR files
-Visit Selenium Downloads
-Use stable version: 4.32.0 (May 02, 2025)
+https://www.selenium.dev/downloads/
+Stable: 4.32.0 (May 02, 2025)
 
 ✅ Complete Eclipse installation and setup
 
@@ -42,3 +42,4 @@ Check public static void main(String[] args)
 Click Finish
 
 ✍️ Workspace is ready to write your Selenium automation code!
+

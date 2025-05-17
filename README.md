@@ -88,8 +88,8 @@ Using Maven: Add these dependencies in your pom.xml:
         <scope>test</scope>
     </dependency>
 </dependencies>
-**
-Java code for selenum + testng:**
+
+**Java code for selenum + testng:**
 
 package scriptinjava;
 

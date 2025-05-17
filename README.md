@@ -59,3 +59,105 @@ Click Apply and Close
 
 10. Your workspace is now ready to write and run Selenium automation code.
 
+
+
+
+**Selenium + testng**
+
+Procedure to Integrate Selenium with TestNG
+Set up your Java project
+Create a new Java project in your IDE (like Eclipse or IntelliJ).
+
+Add Selenium and TestNG libraries
+
+Using Maven: Add these dependencies in your pom.xml:
+
+<dependencies>
+    <!-- Selenium Java -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.9.1</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.7.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+Java code for selenum + testng:
+
+package scriptinjava;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class scriptinjava {
+    public static void main(String[] args) {
+        // Set path to your local chromedriver executable
+        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver-win64\\chromedriver.exe");
+
+        // Create ChromeDriver instance (local browser)
+        WebDriver driver = new ChromeDriver();
+
+        // Open Google homepage
+        driver.get("https://www.google.com");
+
+        // Print page title
+        System.out.println("Page title is: " + driver.getTitle());
+
+        // Close browser
+        driver.quit();
+    }
+}
+
+
+**Integrate testng with maven:**
+
+1. Create a Maven Project in Eclipse
+File → New → Maven Project
+
+Choose a simple archetype like maven-archetype-quickstart
+
+Click Next and finish the wizard
+
+2. Add TestNG dependency to pom.xml
+Open pom.xml and add inside <dependencies>:
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.0</version>
+    <scope>test</scope>
+</dependency>
+Save the file, Maven will download TestNG automatically.
+
+3. Create a TestNG test class
+Right-click src/test/java → New → Class
+
+Name it SimpleTest(package,class)
+
+Add this code:
+
+package SimpleTest;
+
+import org.testng.annotations.Test;
+
+public class SimpleTest {
+    @Test
+    public void testMethod() {
+        System.out.println("TestNG test running with Maven in Eclipse!");
+    }
+}
+4. Run TestNG test
+Right-click on SimpleTest.java → Run As → TestNG Test
+
+If you don’t see TestNG Test, do this:
+
+Right-click project → Build Path → Configure Build Path → Add Library → TestNG → Finish
+
+Then try running again.

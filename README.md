@@ -1,15 +1,29 @@
+4. Using Selenium IDE, Write a test suite containing minimum 4 test cases - testsuitejava
+5. Install Selenium server and demonstrate it using a script in Java - scriptinjava.java
+12. Automate the testing of Spotify website using Selenium - spotifyaut.java
+13. Integrate TestNG with Maven - Below
+14. Find Procedure to integrate selenium with TestNG - Below
+20. Automate Google.com with Selenium Web Driver - googleaut.java
+
 Steps to Set Up and Run Java Selenium Project in Eclipse
 
 1. Download Eclipse IDE from:
 https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2025-03/R/eclipse-inst-jre-win64.exe
+2.Download chromedriver:
+check your chrome browser version(setting->about chrome)
+download the chromedriver that is compatible with your chrome version
+https://developer.chrome.com/docs/chromedriver/downloads
 
-2. Download Selenium JAR files from:
+Navigate to chrome version 115+ on the left
+select stable->download chromedriver - Win64
+
+3. Download Selenium JAR files from:
 https://www.selenium.dev/downloads/
 (Stable version: 4.32.0, May 02, 2025)
 
-3. Complete Eclipse installation and setup.
+4. Complete Eclipse installation and setup.
 
-4. Create a new Java project in Eclipse:
+5. Create a new Java project in Eclipse:
 
 Go to File → New → Java Project
 

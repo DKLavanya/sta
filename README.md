@@ -1,11 +1,11 @@
-4. Using Selenium IDE, Write a test suite containing minimum 4 test cases - testsuitejava
-5. Install Selenium server and demonstrate it using a script in Java - scriptinjava.java
-12. Automate the testing of Spotify website using Selenium - spotifyaut.java
-13. Integrate TestNG with Maven - Below
-14. Find Procedure to integrate selenium with TestNG - Below
-20. Automate Google.com with Selenium Web Driver - googleaut.java
+1. Using Selenium IDE, Write a test suite containing minimum 4 test cases - testsuitejava
+2. Install Selenium server and demonstrate it using a script in Java - scriptinjava.java
+3. Automate the testing of Spotify website using Selenium - spotifyaut.java
+4. Integrate TestNG with Maven - Below
+5. Find Procedure to integrate selenium with TestNG - Below
+6. Automate Google.com with Selenium Web Driver - googleaut.java
 
-Steps to Set Up and Run Java Selenium Project in Eclipse
+**Steps to Set Up and Run Java Selenium Project in Eclipse**
 
 1. Download Eclipse IDE from:
 https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2025-03/R/eclipse-inst-jre-win64.exe

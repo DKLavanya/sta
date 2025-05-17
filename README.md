@@ -88,8 +88,8 @@ Using Maven: Add these dependencies in your pom.xml:
         <scope>test</scope>
     </dependency>
 </dependencies>
-
-Java code for selenum + testng:
+**
+Java code for selenum + testng:**
 
 package scriptinjava;
 
@@ -126,7 +126,7 @@ Choose a simple archetype like maven-archetype-quickstart
 Click Next and finish the wizard
 
 2. Add TestNG dependency to pom.xml
-Open pom.xml and add inside <dependencies>:
+Open **pom.xml** and add inside <dependencies>:
 
 <dependency>
     <groupId>org.testng</groupId>
@@ -141,7 +141,7 @@ Right-click src/test/java → New → Class
 
 Name it SimpleTest(package,class)
 
-Add this code:
+**Java code for testng + maven:**
 
 package SimpleTest;
 
